@@ -1,8 +1,11 @@
-# GitLab Workshop
+# GitLab Advanced Training
 
-This [workshop](https://www.netways.de/trainings/gitlab/) is designed
-as a one days hands-on workshop introducing GitLab, Workflows, CI/CD and
+This [training](https://www.netways.de/trainings/gitlab/) is designed
+as a one days hands-on training introducing GitLab, Workflows, CI/CD and
 many best practices with GitLab.
+
+The [GitLab Training](https://github.com/NETWAYS/gitlab-training) with
+learning Git is recommended before taking this course.
 
 We have developed our training material based on years of experience in
 development, professional services and training. To support our work,
