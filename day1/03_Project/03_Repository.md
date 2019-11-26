@@ -24,7 +24,7 @@
 * Steps:
  * Navigate into your `$HOME` directory
  * Extract the project URL (`Project > Details`)
- * Use `git clone https://.../osmc/training.git training`
+ * Use `git clone https://.../devops/training.git training`
  * Inspect the files
 
 ~~~SECTION:handouts~~~
@@ -45,7 +45,7 @@ Follow the instructions and ask the trainer for help in case.
 
     @@@ Sh
     $ cd $HOME
-    $ git clone https://4014-gitlab-b1d71-web.nws.netways.de/osmc/training.git training
+    $ git clone https://4014-gitlab-b1d71-web.nws.netways.de/devops/training.git training
     $ cd training
     $ git log
     $ ls -lah

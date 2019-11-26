@@ -38,7 +38,7 @@ Note that artifacts from all previous stages are passed by default.
 
     pkg-rpm:
       stage: package
-      image: $CI_REGISTRY/osmc/docker-fpm/fpm
+      image: $CI_REGISTRY/devops/docker-fpm/fpm
       script:
         - fpm -s dir -t rpm -n go-app go-app
         - rpm -qpl *.rpm
@@ -70,7 +70,7 @@ Follow the instructions and ask the trainer for help in case.
     
     variables:
       # Please edit to your GitLab project
-      REPO_NAME: 4014-gitlab-b1d71-web.nws.netways.de/osmc/training
+      REPO_NAME: 4014-gitlab-b1d71-web.nws.netways.de/devops/training
     
     # The problem is that to be able to use go get, one needs to put
     # the repository in the $GOPATH. So for example if your gitlab domain
@@ -106,7 +106,7 @@ Follow the instructions and ask the trainer for help in case.
     
     pkg-rpm:
       stage: package
-      image: $CI_REGISTRY/osmc/docker-fpm/fpm
+      image: $CI_REGISTRY/devops/docker-fpm/fpm
       script:
         - fpm -s dir -t rpm -n go-app go-app
         - rpm -qpl *.rpm
@@ -134,7 +134,7 @@ Note that artifacts from all previous stages are passed by default.
 
     pkg-deb:
       stage: package
-      image: $CI_REGISTRY/osmc/docker-fpm/fpm
+      image: $CI_REGISTRY/devops/docker-fpm/fpm
       before_script:
         - apk add tar dpkg
       script:
@@ -167,7 +167,7 @@ Follow the instructions and ask the trainer for help in case.
     
     variables:
       # Please edit to your GitLab project
-      REPO_NAME: 4014-gitlab-b1d71-web.nws.netways.de/osmc/training
+      REPO_NAME: 4014-gitlab-b1d71-web.nws.netways.de/devops/training
     
     # The problem is that to be able to use go get, one needs to put
     # the repository in the $GOPATH. So for example if your gitlab domain
@@ -203,7 +203,7 @@ Follow the instructions and ask the trainer for help in case.
     
     pkg-rpm:
       stage: package
-      image: $CI_REGISTRY/osmc/docker-fpm/fpm
+      image: $CI_REGISTRY/devops/docker-fpm/fpm
       script:
         - fpm -s dir -t rpm -n go-app go-app
         - rpm -qpl *.rpm
@@ -213,7 +213,7 @@ Follow the instructions and ask the trainer for help in case.
     
     pkg-deb:
       stage: package
-      image: $CI_REGISTRY/osmc/docker-fpm/fpm
+      image: $CI_REGISTRY/devops/docker-fpm/fpm
       before_script:
         - apk add tar dpkg
       script:

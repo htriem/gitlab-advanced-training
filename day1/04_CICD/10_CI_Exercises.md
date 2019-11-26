@@ -93,7 +93,7 @@ The resulting .gitlab-ci.yml looks like this:
     
     variables:
       # Please edit to your GitLab project
-      REPO_NAME: 4014-gitlab-b1d71-web.nws.netways.de/osmc/training
+      REPO_NAME: 4014-gitlab-b1d71-web.nws.netways.de/devops/training
     
     # The problem is that to be able to use go get, one needs to put
     # the repository in the $GOPATH. So for example if your gitlab domain
@@ -132,7 +132,7 @@ Build fails since we miss an import from `fmt`.
     $ mkdir -p $GOPATH/src/$(dirname $REPO_NAME)
     $ ln -svf $CI_PROJECT_DIR $GOPATH/src/$REPO_NAME
     
-    '/go/src/4014-gitlab-b1d71-web.nws.netways.de/osmc/training' -> '/builds/osmc/training'
+    '/go/src/4014-gitlab-b1d71-web.nws.netways.de/devops/training' -> '/builds/devops/training'
     $ cd $GOPATH/src/$REPO_NAME
     
     $ go fmt $(go list ./... | grep -v /vendor/)
@@ -140,7 +140,7 @@ Build fails since we miss an import from `fmt`.
     main.go
     $ go vet $(go list ./... | grep -v /vendor/)
     
-    # 4014-gitlab-b1d71-web.nws.netways.de/osmc/training
+    # 4014-gitlab-b1d71-web.nws.netways.de/devops/training
     vet: ./main.go:4:2: undeclared name: fmt
     ERROR: Job failed: exit code 1
 

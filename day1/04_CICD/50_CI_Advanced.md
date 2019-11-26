@@ -25,8 +25,8 @@ https://www.netways.de/blog/2018/06/07/continuous-integration-with-golang-and-gi
 
 Example:
 
-    ![build](https://....nws.netways.de/osmc/training/badges/master/build.svg)
-    ![coverage](https://....nws.netways.de/osmc/training/badges/master/coverage.svg)
+    ![build](https://....nws.netways.de/devops/training/badges/master/build.svg)
+    ![coverage](https://....nws.netways.de/devops/training/badges/master/coverage.svg)
 
 https://docs.gitlab.com/ee/user/project/badges.html
 

@@ -54,7 +54,7 @@ https://docs.gitlab.com/ee/ci/docker/using_docker_build.html
 # Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Create a new project for Container Builds
 
 * Objective:
- * Create a new project `docker-fpm` in the `osmc` group
+ * Create a new project `docker-fpm` in the `devops` group
 * Steps:
  * Click the `+` icon from the header menu, select `new project`
  * Project name `docker-fpm`
@@ -150,7 +150,7 @@ Dockerfile:
 .gitlab-ci.yml:
 
     variables:
-        CI_REGISTRY_IMAGE: $CI_REGISTRY/osmc/docker-fpm/fpm:latest
+        CI_REGISTRY_IMAGE: $CI_REGISTRY/devops/docker-fpm/fpm:latest
 
 ~~~SECTION:handouts~~~
 
@@ -171,7 +171,7 @@ Follow the instructions and ask the trainer for help in case.
 .gitlab-ci.yml
 
     variables:
-        CI_REGISTRY_IMAGE: $CI_REGISTRY/osmc/docker-fpm/fpm:latest
+        CI_REGISTRY_IMAGE: $CI_REGISTRY/devops/docker-fpm/fpm:latest
 
     # This file is a template, and might need editing before it works on your project.
     build-master:

@@ -50,9 +50,9 @@ Follow the instructions and ask the trainer for help in case.
     ...
     remote:
     remote: To create a merge request for feature/docs, visit:
-    remote:   https://4014-gitlab-b1d71-web.nws.netways.de/osmc/training/merge_requests/new?merge_request%5Bsource_branch%5D=feature%2Fdocs
+    remote:   https://4014-gitlab-b1d71-web.nws.netways.de/devops/training/merge_requests/new?merge_request%5Bsource_branch%5D=feature%2Fdocs
     remote:
-    To https://4014-gitlab-b1d71-web.nws.netways.de/osmc/training
+    To https://4014-gitlab-b1d71-web.nws.netways.de/devops/training
      * [new branch]      feature/docs -> feature/docs
     Branch 'feature/docs' set up to track remote branch 'feature/docs' from 'origin'.
 

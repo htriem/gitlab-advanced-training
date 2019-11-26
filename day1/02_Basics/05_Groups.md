@@ -2,12 +2,12 @@
 # Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Create a new Group
 
 * Objective
-  * Create a new group called `osmc`
+  * Create a new group called `devops`
 
 * Steps
   * Navigate to the dashboard
   * Click on `Create a group`
-  * Use `osmc` as name
+  * Use `devops` as name
   * Navigate into `Members` and verify that you're in the group
 
 * Bonus
@@ -25,9 +25,9 @@
 # Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Proposed Solution
 ****
 
-* Group name: `osmc`
+* Group name: `devops`
 * Avatar: Use OSMC logo
 * Visibility level: Private
 * Create
-* `Members > Members with access to osmc`
+* `Members > Members with access to devops`
 

@@ -6,7 +6,7 @@
 * Steps:
  * Navigate onto the dashboard and select `create new project`
  * Name: `training`
- * URL: Select `osmc` from the dropdown
+ * URL: Select `devops` from the dropdown
  * Tick `Initialize repository with a README`
 
 ~~~SECTION:handouts~~~
