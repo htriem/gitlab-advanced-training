@@ -48,7 +48,7 @@
 * Objective:
  * Create a new feature branch `feature/docs-workflows`
 * Steps:
- * Change into `$HOME/workshop`
+ * Change into `$HOME/training`
  * Use `git checkout -b feature/docs-workflows` to create a new feature branch based on the master
  * Add and commit changes
  * Push the branch to your central repository
@@ -73,7 +73,7 @@
 The new branch `feature/docs-workflows` will be based on the `master` branch.
 
     @@@ Sh
-    $ cd $HOME/workshop
+    $ cd $HOME/training
     $ git checkout master
     $ git checkout -b feature/docs-workflows
 
@@ -128,7 +128,7 @@ The new branch `feature/docs-workflows` will be based on the `master` branch.
 ### Checkout the feature branch and add a commit
 
     @@@ Sh
-    $ cd $HOME/workshop
+    $ cd $HOME/training
     $ git checkout feature/docs-workflows
     $ vim README.md
 

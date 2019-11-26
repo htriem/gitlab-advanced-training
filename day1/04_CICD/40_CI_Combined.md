@@ -4,7 +4,7 @@
 
 We now have
 
-* Go app in the `workshop` project with CI tests
+* Go app in the `training` project with CI tests
 * Docker image build in the `docker-fpm` project
 
 What's missing?
@@ -27,7 +27,7 @@ What's missing?
 # Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Add RPM package stage to the Go app
 
 * Objective:
- * Add `pkg-rpm` stage and job to Go app in the `workshop` project
+ * Add `pkg-rpm` stage and job to Go app in the `training` project
 * Steps:
  * Open `Project > Branches` and the `feature/go-app` branch
  * Open the Web IDE and edit `.gitlab-ci.yml`
@@ -70,7 +70,7 @@ Follow the instructions and ask the trainer for help in case.
     
     variables:
       # Please edit to your GitLab project
-      REPO_NAME: 4014-gitlab-b1d71-web.nws.netways.de/osmc/workshop
+      REPO_NAME: 4014-gitlab-b1d71-web.nws.netways.de/osmc/training
     
     # The problem is that to be able to use go get, one needs to put
     # the repository in the $GOPATH. So for example if your gitlab domain
@@ -126,7 +126,7 @@ Follow the instructions and ask the trainer for help in case.
 # Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Add DEB package stage to the Go app
 
 * Objective:
- * Add `pkg-deb` stage and job to Go app in the `workshop` project
+ * Add `pkg-deb` stage and job to Go app in the `training` project
 * Steps:
  * Add a new job `pkg-deb`
 
@@ -167,7 +167,7 @@ Follow the instructions and ask the trainer for help in case.
     
     variables:
       # Please edit to your GitLab project
-      REPO_NAME: 4014-gitlab-b1d71-web.nws.netways.de/osmc/workshop
+      REPO_NAME: 4014-gitlab-b1d71-web.nws.netways.de/osmc/training
     
     # The problem is that to be able to use go get, one needs to put
     # the repository in the $GOPATH. So for example if your gitlab domain

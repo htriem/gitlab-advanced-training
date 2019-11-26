@@ -46,12 +46,12 @@
 Follow the instructions and ask the trainer for help in case.
 
     @@@ Sh
-    $ cd $HOME/workshop
+    $ cd $HOME/training
     $ git checkout master
     $ git checkout -b feature/docs
     $ vim README.md
 
-    # workshop
+    # training
 
     OSMC Workshop
 

@@ -2,10 +2,10 @@
 # Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Create a new Project
 
 * Objective:
- * Create a new project called `workshop`
+ * Create a new project called `training`
 * Steps:
  * Navigate onto the dashboard and select `create new project`
- * Name: `workshop`
+ * Name: `training`
  * URL: Select `osmc` from the dropdown
  * Tick `Initialize repository with a README`
 

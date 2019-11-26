@@ -20,11 +20,11 @@
 # Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Clone the Repository
 
 * Objective:
- * Clone the repository into `$HOME/workshop`
+ * Clone the repository into `$HOME/training`
 * Steps:
  * Navigate into your `$HOME` directory
  * Extract the project URL (`Project > Details`)
- * Use `git clone https://.../osmc/workshop.git workshop`
+ * Use `git clone https://.../osmc/training.git training`
  * Inspect the files
 
 ~~~SECTION:handouts~~~
@@ -45,8 +45,8 @@ Follow the instructions and ask the trainer for help in case.
 
     @@@ Sh
     $ cd $HOME
-    $ git clone https://4014-gitlab-b1d71-web.nws.netways.de/osmc/workshop.git workshop
-    $ cd workshop
+    $ git clone https://4014-gitlab-b1d71-web.nws.netways.de/osmc/training.git training
+    $ cd training
     $ git log
     $ ls -lah
 
