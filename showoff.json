@@ -1,9 +1,9 @@
 {
-  "name": "GitLab",
+  "name": "GitLab Advanced",
   "subtitle": "A tool for all phases in a DevOps lifecycle.",
   "location": "Nuremberg",
   "author": "Original author: Michael Friedrich",
-  "release": "1.1.0",
+  "release": "1.0.0",
 
   "favicon": "image/global/favicon.ico",
 
@@ -12,7 +12,7 @@
   "password": "awesome",
 
   "templates" : {
-    "default": "global/layouts/osmc.tpl"
+    "default": "global/layouts/netways.tpl"
   },
 
   "sections": [
@@ -22,13 +22,14 @@
     {"section": "global/pre/netways/about"},
     {"section": "global/pre/hints"},
 
-    {"section":"workshop/00_Organisation"},
-    {"section":"workshop/01_Introduction"},
-    {"section":"workshop/02_Basics"},
-    {"section":"workshop/03_Project"},
-    {"section":"workshop/04_CICD"},
-    {"section":"workshop/05_Strategies"},
-    {"section":"workshop/06_Best_Practice"},
+    {"section":"day1/00_Organisation"},
+    {"section":"day1/01_Introduction"},
+    {"section":"day1/02_Basics"},
+    {"section":"day1/03_Project"},
+    {"section":"day1/04_CICD"},
+
+    {"section":"day2/05_Strategies"},
+    {"section":"day2/06_Best_Practice"},
 
     {"section": "global/post"}
   ]
