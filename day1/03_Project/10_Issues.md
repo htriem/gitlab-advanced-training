@@ -17,6 +17,30 @@
 ~~~ENDSECTION~~~
 
 !SLIDE smbullets
+# Issue Content
+
+* Markdown as structured language: Headings, code blocks, images, etc.
+* References and highlights
+* Task lists
+
+Example:
+
+    - [ ] Feature Implementation
+    - [ ] Documentation
+
+Used as:
+
+<center><img src="../../_images/project/gitlab_project_task_list.png" style="width:400px" alt="GitLab Task Lists"/></center>
+
+~~~SECTION:handouts~~~
+
+****
+
+Markdown reference manual: https://docs.gitlab.com/ee/user/markdown.html
+
+~~~ENDSECTION~~~
+
+!SLIDE smbullets
 # Lab ~~~SECTION:MAJOR~~~.~~~SECTION:MINOR~~~: Add Issue Labels
 
 * Objective:
