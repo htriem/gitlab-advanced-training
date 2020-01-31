@@ -7,6 +7,20 @@ many best practices with GitLab.
 The [GitLab Training](https://github.com/NETWAYS/gitlab-training) with
 learning Git is recommended before taking this course.
 
+The CI exercises follow with a real programming example in Golang, with later creating packages from them. The training aims to be more of a workshop with less explanations. 
+
+## Overview
+
+- GitLab Introduction: Purpose, Community/Enterprise Edition, Features 
+- GitLab Basics: Users, Groups, Projects, Authorization (LDAP/AD), Administration, Dashboards
+- Working with GitLab: Repositories, Web IDE, Branches, Issue Management (Templates, Labels), Release Management (Milestones), Best Practices
+- GitLab Workflow: Merge Requests, Reviews + CI 
+- Insights into GitLab: Project Graph, Kanban Issue Boards, Snippets, Wiki, etc. 
+- CI/CD: Overview, Runners (Linux/Unix, Windows, macOS), Containers/Docker, Configuration (Variables, Templates), Pipelines (Jobs, Stages), Artifacts/Caches
+- Advanced CI/CD: Container Registry, Custom Image Build, Package Jobs, Coverage Reports, Tests, Badges, Async Pipelines
+
+## Official Training
+
 We have developed our training material based on years of experience in
 development, professional services and training. To support our work,
 please join the official training sessions and get your ticket at [NETWAYS](https://www.netways.de/trainings/gitlab/).
